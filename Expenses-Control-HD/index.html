@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+        <title>Login - Controle de gastos</title>
+</head>
+
+<body class="centralize">
+    <form>
+        <div class="form-field">
+            <div><label>Email</label></div>
+            <input type="email" name="email" id="email" onchange="onChangeEmail()" placeholder="seu@email.com">
+            <div class="error" id="email-required-error">Email é obrigatório</div>
+            <div class="error" id="email-invalid-error">Email é inválido</div>
+        </div>
+        <div class="form-field">
+            <div><label>Senha</label></div>
+            <input type="password" name="password" id="password" onchange="onChangePassword()" placeholder="Senha">
+            <div class="error" id="password-required-error">Senha é obrigatória</div>
+        </div>
+        <div>
+            <button type="button" class="clear" id="recover-password-button" disabled="true" onclick="recoverPassword()">Recuperar senha</button>
+        </div>
+        <div>
+            <button type="button" class="solid" id="login-button" disabled="true" onclick="login()">Entrar</button>
+        </div>
+        <div>
+            <button type="button" class="outline" onclick="register()">Registrar</button>
+        </div>
+    </form>
+</body>
+
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="global.css">
+
+<script src="index.js"></script>
+<script src="validations.js"></script>
+<script src="loading.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/11.5.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/11.5.0/firebase-auth-compat.js"></script>
+<script>
+    const firebaseConfig = {
+        apiKey: "AIzaSyCBDnwoHigSl-GojlRXR-53yCfmrAiGONE",
+        authDomain: "controle-de-gastos-11739.firebaseapp.com",
+        projectId: "controle-de-gastos-11739",
+        storageBucket: "controle-de-gastos-11739.firebasestorage.app",
+        messagingSenderId: "749353372468",
+        appId: "1:749353372468:web:f31262516dc7f5bc8e7361"
+    };
+    firebase.initializeApp(firebaseConfig);
+</script>
+
+</html>

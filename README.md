@@ -4,7 +4,7 @@ Canal Paulo Alves Dev: [UCtTfS4ffNNNhGoXzAdklwtQ](https://youtube.com/@pauloalve
 
 Link do projeto: https://devstrawberry.github.io/expenses-control/
 
-Esse projeto é uma aplicação de controle de gastos. Ele consisti de uma página de login, uma página de registro e uma página home.
+Esse projeto é uma aplicação de controle de gastos. Ele consiste de uma página de login, uma página de registro e uma página home.
 
 Esse projeto utiliza:
 * HTML (linguagem de marcação)

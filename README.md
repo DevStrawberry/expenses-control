@@ -1,4 +1,4 @@
-# Aplicação de Controle de Gastos <h1> hhh
+# Aplicação de Controle de Gastos <h1>
 ## Projeto do canal de Youtube Paulo Alves Dev <h2>
 Canal Paulo Alves Dev: [UCtTfS4ffNNNhGoXzAdklwtQ](https://youtube.com/@pauloalvesdev4397?si=Fm2XDPyFAZcjpBuv)
 
